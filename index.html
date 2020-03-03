@@ -34,6 +34,16 @@
     <center> <ul class="blocktext">
       <p>Fav quote: "A DREAM, written down with a date becomes a GOAL, broken down into steps becomes a PLAN, backed by action becomes REALITY"</p>
     </center>
-    <script src="/static/index.js" type="text/javascript"></script>
+    <script>
+      document.getElementsByClassName('center').addEventListener("mouseover", mouseOn);
+      document.getElementsByClassName('center').addEventListener("mouseout", mouseOff);
+      function mouseOn() {
+        document.getElementsByClassName('center').style.color = "red";
+        document.getElementsByClassName('center').style.fontSize = "x-large";
+      }
+      function mouseOff() {
+        document.getElementById('center').style.color = "black";
+      }
+    </script>
   </body>
 </html>

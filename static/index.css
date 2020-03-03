@@ -53,6 +53,8 @@ body{
 
 h1 {
   font-family: American Typewriter, serif;
+  color: black;
+  font-size: 40px;
 }
 
 
@@ -73,7 +75,7 @@ li {
 
 h2 {
   color: black;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
 }
 

@@ -12,40 +12,11 @@
   width: 50em
 }
 
-.label {
-  font-family: monospace;
-  color: black;
-  font-size: 16px;
-  display: block;
-}
-
-.button1 {
-  font-family: monospace;
-  color: white;
-  font-size: 16px;
-  display: block;
-  background-color: #a9a9a9;
-  border-radius: 12px;
-  border: #daa520;
-}
-
-.list {
-border:4px solid red;
-display:inline-block;
-}
-
 .center {
   text-align: center;
 }
 
-.memelist{
-  font-family: monospace;
-  color: black;
-  font-size: 16px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50em
-}
+
 
 body{
   background-color: #fdebd0
@@ -65,13 +36,6 @@ p {
   display: block;
 }
 
-li {
-  color: black;
-  font-size: 17px;
-  font-style: italic;
-  display:inline;
-  padding:0 30%;
-}
 
 h2 {
   color: black;
@@ -84,32 +48,6 @@ h2 {
   height:400px;
 }
 
-.bike {
-  width:450px; /* you can use % */
-  height: auto;
-}
-
-.typewriter {
-  width:450px; /* you can use % */
-  height: auto;
-}
-
-.teaspill {
-  width:200px;
-  height:auto;
-}
-
-.meme:hover {
-  border: solid black thick;
-  transform: scale(1.15);
-}
-
-.bigformbox {
-  width: 500px;
-  height: 100px;
-}
-
-/*topnav down is not my code. Learn it */
 
 .topnav {
   background-color: #333;

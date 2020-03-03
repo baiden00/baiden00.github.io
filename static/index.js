@@ -4,7 +4,7 @@ document.getElementsByClassName('center').addEventListener("mouseout", mouseOff)
 
 function mouseOn() {
   document.getElementsByClassName('center').style.color = "red";
-  document.getElementsByClassName('className').style.fontSize = "x-large";
+  document.getElementsByClassName('center').style.fontSize = "x-large";
 }
 
 function mouseOff() {

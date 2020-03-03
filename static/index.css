@@ -3,7 +3,6 @@
   font-size: 50px;
   font-family: American Typewriter, serif;
   font-weight: bold;
-  text-decoration: underline;
   text-align: center;
 }
 
@@ -79,8 +78,8 @@ h2 {
 }
 
 .pictureofme {
-  width:45px; /* you can use % */
-  height:45px;
+  width:200px; /* you can use % */
+  height:200px;
 }
 
 .bike {
